@@ -12,32 +12,46 @@
     />
 
     <link rel="stylesheet" href="CSS\learnStyle.css" />
-    <title>Convert EGP To Dollar</title>
+    <title>Convert EGP To USD</title>
   </head>
   <body>
     <div class="container">
+      
+      <h2 class="Head-line">Convert Egyptian pound To Dollar</h2>
       <div class="content">
-        <h2 class="Head-line">Convert EGP To Dollar Basbosa❤️</h2>
         <form class="input" action="">
-          <span class="Name">From EGP</span>
-          <input
-            class="egp"
-            type="number"
-            name="EGP"
-            id=""
-            placeholder="EGP"
-            value=""
-          />
-          <span class="Name">To USD</span>
-          <input
-            class="usd"
-            type="text"
-            name="USD"
-            id=""
-            placeholder="USD"
-            value=""
-          />
-          <input class="convert" type="button" value="Convert" />
+          <div class="fromcontainer">
+            <span class="Name">From</span>
+            <select class="select-from" name="" id="">
+              <option value="EGP">EGP</option>
+              <option value="USD">USD</option>
+            </select>
+
+            <input
+              class="from"
+              type="number"
+              name="from"
+              id=""
+              placeholder=""
+              value=""
+            />
+          </div>
+
+          <div class="fromcontainer">
+            <span class="Name">To</span>
+            <select class="select-To" name="" id="">
+              <option value="USD">USD</option>
+              <option value="EGP">EGP</option>
+            </select>
+            <input
+              class="to"
+              type="text"
+              name="to"
+              id=""
+              placeholder=""
+              value=""
+            />
+          </div>
         </form>
       </div>
     </div>
